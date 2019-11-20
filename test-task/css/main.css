@@ -1,0 +1,557 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.layer {
+  background-image: url("../img/top.png");
+  background-attachment: fixed;
+}
+
+.logo {
+  width: 200px;
+  margin-right: 1px;
+}
+
+.square1 {
+  background-color: rgb(38, 198, 218);
+  position: absolute;
+  left: 359px;
+  top: 53px;
+  width: 12px;
+  height: 12px;
+  z-index: 121;
+}
+
+.square2 {
+  border-radius: 2px;
+  background-color: rgb(220, 231, 117);
+  position: absolute;
+  left: 328px;
+  top: 45px;
+  width: 21px;
+  height: 20px;
+  z-index: 120;
+}
+
+.square3 {
+  border-radius: 2px;
+  background-color: rgb(220, 231, 117);
+  position: absolute;
+  left: 348px;
+  top: 27px;
+  width: 21px;
+  height: 20px;
+  z-index: 119;
+}
+
+.square4 {
+  border-radius: 2px;
+  background-color: rgb(220, 231, 117);
+  position: absolute;
+  left: 353px;
+  top: 50px;
+  width: 21px;
+  height: 20px;
+  z-index: 118;
+}
+
+.square5 {
+  border-radius: 2px;
+  background-color: rgb(220, 231, 117);
+  position: absolute;
+  left: 323px;
+  top: 21px;
+  width: 21px;
+  height: 20px;
+  z-index: 117;
+}
+
+.LegalTechnologies {
+  font-size: 28px;
+  font-family: "NotaBene";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: left;
+  width: 187px;
+  height: 48px;
+  margin-left: 325px;
+  padding-top: 19px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.layer img {
+  width: 55px;
+  height: 60px;
+}
+
+ul {
+  margin-top: 35px;
+}
+
+li {
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Open Sans";
+  text-align: left;
+  padding: 5px;
+}
+
+li a {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 2;
+  text-decoration: none;
+}
+
+.Rectangle_4_copy {
+  background-color: rgb(38, 198, 218);
+  width: 49px;
+  height: 2px;
+}
+
+.Shape_1 {
+  width: 18px;
+  height: 18px;
+  float: right;
+  margin-top: 50px;
+  margin-right: 70px;
+}
+
+.more {
+  color: #ffffff;
+  font-size: 30px;
+  margin-top: 5%;
+  margin-left: 21%;
+}
+
+.more p {
+  margin: 0;
+}
+
+.titletext {
+  font-size: 130px;
+  font-style: italic;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.linetwo {
+  font-size: 90px;
+  text-transform: uppercase;
+  font-family: "Open Sans Bold";
+  font-style: bold;
+}
+
+.phonenumber {
+  padding: 10px;
+  width: 707px;
+  border-bottom: 2px solid white;
+  border-radius: 2px;
+  margin-top: 7%;
+  margin-left: 23%;
+}
+
+.phonenumber span {
+  font-size: 30px;
+  color: white;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+}
+
+.cirkles {
+  display: flex;
+  width: 50px;
+  justify-content: space-between;
+  justify-items: left;
+  padding-top: 20px;
+  padding-left: 50% ;
+  padding-bottom: 20px;
+}
+
+.cirkle1 {
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  width: 8px;
+  height: 8px;
+}
+
+.cirkle2 {
+  border-radius: 50%;
+  background-color: rgb(26, 164, 181);
+  width: 8px;
+  height: 8px;
+}
+
+.cirkle3 {
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  width: 8px;
+  height: 8px;
+}
+
+.cirkle4 {
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  width: 8px;
+  height: 8px;
+}
+
+.bound {
+  background-color: rgb(38, 198, 218);
+  width: 100%;
+  height: 11px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  background-color: white;
+}
+
+.maincont2 {
+  width: 400px;
+}
+
+.maincont1 {
+  width: 600px;
+}
+
+.undervideo p {
+  padding-left: 7%;
+  font-size: 16px;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  color: white;
+}
+
+.undervideoline {
+  background-color: rgb(176, 227, 233);
+  width: 340px;
+  height: 1px;
+  margin-left: 30px;
+}
+
+.undervideo {
+  margin-top: 250px;
+  height: 300px;
+  background-color: rgb(38, 198, 218);
+}
+
+#under1 {
+  font-family: ("Open Sans Semibold");
+  padding-top: 50px;
+  font-size: 16x;
+  line-height: 25px;
+}
+
+#under2 {
+  font-family: ("Open Sans Regular");
+  font-size: 12px;
+}
+
+.wrap {
+  position: relative;
+}
+
+.buck {
+  position: absolute;
+  width: 100%;
+}
+
+.front {
+  width: auto;
+  position: absolute;
+  top: 50%;
+  margin-top: 25%;
+  left: 42%;
+}
+
+.content h3 {
+  font-size: 30px;
+  font-family: Open Sans Semibold;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.Lorem_ipsum_dolor_sit_amet__consectetur_adipisi {
+  font-size: 16px;
+  font-family: "Open Sans";
+  color: rgb(86, 86, 86);
+  line-height: 1.125;
+}
+
+.Calling_Your_Law_Firm {
+  font-size: 24px;
+  font-family: "Open Sans";
+  color: rgb(22, 51, 55);
+  line-height: 1.2;
+  text-align: left;
+  width: 248px;
+}
+
+.aboutuscontent1 {
+  margin-right: 0;
+  height: 300px;
+}
+
+.auc1 {
+  display: flex;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  height: 100px;
+  align-items: center;
+  font-family: "Open Sans";
+  color: rgb(86, 86, 86);
+}
+
+.auc1 img {
+  width: 170px;
+  height: 98px;
+  margin-right: 10px;
+}
+
+.auc2 {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  font-family: "Open Sans";
+  color: rgb(86, 86, 86);
+}
+
+.auc2 img {
+  width: 170px;
+  height: 98px;
+  margin-right: 10px;
+}
+
+#services {
+  background-image: url("../img/background.png");
+  width: 100%;
+  float: left;
+  background-attachment: fixed;
+  align-items: center;
+}
+
+.proz {
+  background-color: #25c4d8;
+  opacity: 0.8;
+  width: 100%;
+  float: left;
+  z-index: 1;
+}
+
+.proz h3 {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-family: "Open Sans Regular";
+  padding-top: 30px;
+}
+
+.proz h1 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Open Sans Semibold";
+  font-size: 70px;
+}
+
+.sq {
+  margin-left: 14%;
+  z-index: 2;
+}
+
+#div {
+  display: inline-block;
+  border: 1px solid;
+  border-color: rgb(255, 255, 255);
+  width: 350px;
+  height: 290px;
+  margin: 10px;
+  background-color: white;
+  box-shadow: 0px 5px 10px 0px rgba(12, 40, 43, 0.42);
+}
+
+.webdesign {
+  margin-top: 10%;
+  margin-left: 41%;
+  width: 64px;
+  height: 64px;
+}
+
+.proz p {
+  text-align: center;
+  font-family: "Open Sans Regular";
+}
+
+.customcontent {
+  margin-top: 10%;
+  margin-left: 41%;
+  width: 64px;
+  height: 64px;
+}
+
+.pr {
+  margin-top: 10%;
+  margin-left: 41%;
+  width: 64px;
+  height: 64px;
+}
+
+.socialmedia {
+  margin-top: 10%;
+  margin-left: 41%;
+  width: 64px;
+  height: 64px;
+}
+
+.payper {
+  margin-top: 2%;
+  margin-left: 41%;
+  width: 55px;
+  height: 75px;
+}
+
+.seo {
+  margin-top: 10%;
+  margin-left: 41%;
+  width: 64px;
+  height: 64px;
+}
+
+input {
+  background-color: #dce775;
+  font-size: 16px;
+  font-family: "Open Sans Semibold";
+  text-transform: uppercase;
+  border-radius: 2px;
+  width: 279px;
+  height: 60px;
+  margin-left: 33%;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+#end {
+  width: 100%;
+  float: left;
+  background-color: white;
+}
+
+.endline {
+  background-color: rgb(38, 198, 218);
+  width: 100%;
+  height: 2px;
+  margin-top: 10px;
+}
+
+#end p {
+  font-family: "Open Sans Regular";
+  color: #919191;
+  font-size: 14px;
+}
+
+.endpoz {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 580px) {
+  .auc1 {
+      font-size: 10px;
+  }
+}
+
+@media (max-width: 580px) {
+  .auc2 {
+      font-size: 10px;
+  }
+}
+
+@media(max-width: 900px) {
+  .titletext {
+      font-size: 60px;
+  }
+}
+
+@media(max-width: 900px) {
+  .linetwo {
+      font-size: 40px;
+  }
+}
+
+@media(max-width: 900px) {
+  .more {
+      font-size: 20px;
+  }
+}
+
+@media(max-width: 900px) {
+  .phonenumber span {
+      font-size: 20px;
+  }
+}
+
+@media(max-width: 900px) {
+  .phonenumber {
+      padding: 10px;
+      width: 450px;
+      border-bottom: 2px solid white;
+      border-radius: 2px;
+      margin-top: 7%;
+      margin-left: 20%;
+  }
+}
+
+@media(max-width: 900px) {
+  .content {
+      display: block;
+  }
+}
+
+@media(max-width: 600px) {
+  .maincont1 {
+      width: 370px;
+  }
+}
+
+@media(max-width: 600px) {
+  .maincont2 {
+      width: 370px;
+  }
+}
+
+@media(max-width: 600px) {
+  #div {
+      width: 300px;
+  }
+}
+
+@media(max-width: 600px) {
+  input {
+      background-color: #dce775;
+      font-size: 12px;
+      font-family: "Open Sans Semibold";
+      text-transform: uppercase;
+      border-radius: 2px;
+      width: 279px;
+      height: 60px;
+      margin-left: 11%;
+      margin-top: 50px;
+      margin-bottom: 100px;
+  }
+}
